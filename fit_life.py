@@ -52,12 +52,11 @@ def calculation(user_weight, user_height):
 def show_message(user_name, user_age, user_weight, user_height):
     """Выводим сообщение"""
     bmi, water_ml = calculation(user_weight, user_height)
-    # print(user_name, user_age, user_weight, user_height)
-    print(f'''Отчет для пользователя: {user_name} ({user_age} г.)
+    print(f"""Отчет для пользователя: {user_name} ({user_age} г.)
 Твой Индекс Массы Тела: {bmi:.1f}
 Рекомендуемая норма воды: {water_ml} л. в день
 
-Расчет окончен. Будьте здоровы!''')
+Расчет окончен. Будьте здоровы!""")
 
 
 def main():
